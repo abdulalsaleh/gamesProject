@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="./style.css/style.css">-->
+    <link rel="icon" type="image/x-icon" href="Media/images/OKidov2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nonamegame</title>
+</head>
+
+<body>
+    <h1>Nonamegame </h1>
+    <div>
+        <ul>
+            <li><a href="./Html/CreateNewCharacter.html">Create new character</a></li>
+            <li><a href="./Html/Market.html">Market</a></li>
+            <li><a href="./Html/HowToPlay.html">How to play</a></li>
+            <li><a href="./Html/Work.html">Work</a></li>
+            <li><a href="./Html/Equip.html">Equip</a></li>
+            <li><a href="./Html/Quests.html">Quests</a></li>
+        </ul>
+    </div>
+    <section>
+        <h4>Join in the game</h4>
+        <form onsubmit="alert('Message sent')">
+            <h5>E-mail:</h5>
+            <input id="contact-form-email" placeholder="Email" type="email" required>
+            <h5>Password:</h5>
+            <input id="contact-form-subject" placeholder="Subject" type="text" required>
+            <button>Log in</button>
+        </form>
+    </section>
+    <div>
+        <video width="500" autoplay muted loop>
+            <source src="./Media/Video/production ID 3842250.mp4" type="video/mp4">
+            Video not supported
+        </video>
+    </div>
+    <div>
+        <h1>Nonamegame</h1>
+        <h1>Are you ready to be a hero </h1>
+        <p>Abd save the word</p>
+    </div>
+
+    <footer>
+        <div>
+            <h3>LOCATION</h3>
+            <p><a href="https://goo.gl/maps/C2iWLL7x7kjNor4TA" target="_blank">Storgatan 5<br>
+                    352 30 Växjö</a><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.9209824556897!2d14.803979582942203!3d56.87913879704856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4657238d59fbe5c3%3A0x4b0f6cc8816554af!2zU3RvcmdhdGFuIDUsIDM1MiAzMCBWw6R4asO2!5e0!3m2!1sen!2sse!4v1635324316654!5m2!1sen!2sse"
+                    width="280" height="210" allowfullscreen="" loading="lazy" class="res-hide-at-1040px"></iframe></p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.9209824556897!2d14.803979582942203!3d56.87913879704856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4657238d59fbe5c3%3A0x4b0f6cc8816554af!2zU3RvcmdhdGFuIDUsIDM1MiAzMCBWw6R4asO2!5e0!3m2!1sen!2sse!4v1635324316654!5m2!1sen!2sse"
+                width="280" height="210" allowfullscreen="" loading="lazy"
+                class="res-show-at-1040px res-hide-at-big-screen"></iframe>
+        </div>
+        <div>
+            <h3>ABOUT US</h3>
+            <p>New start-up company with the ambition to be the best and most straight-forward team that will help you
+                to fulfil your dreams.</p>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f fa-2x"
+                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div>
+            <h3>CONTACT</h3>
+            <ul>
+                <li><a href="mailto:mail@gmail.com"><i class="fa fa-envelope"></i> Email us</a></li>
+                <li><a href="tel:+46705555555"><i class="fa fa-phone"></i> Phone us</a></li>
+                <li onclick="showContactForm()"><i class="fa fa-plug" aria-hidden="true"></i> Contact-form</li>
+            </ul>
+        </div>
+        </div>
+        <div>
+            <p>All rights reserved by &copy; Nonamegame 2021</p>
+        </div>
+    </footer>
+</body>
+<!--Scripts needs to be after html-render. Or else it doesnt work because the javascripts tries to set variables of html-elemnts that doesnt exist -->
+<script src="./script/script.js"></script>
+
+</html>
